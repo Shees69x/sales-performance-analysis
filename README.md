@@ -13,6 +13,7 @@ Develop a backend system that uses a Large Language Model (LLM) to analyze sales
 1. Clone the repository
 
 2. Set up a virtual environment:
+   
    Activate the virtual environment
    python -m venv virenv
 
@@ -23,14 +24,19 @@ Develop a backend system that uses a Large Language Model (LLM) to analyze sales
    source virenv/bin/activate
 
 4. Install the required packages:
+   
    pip install -r requirements.txt
 
-5. Set your OpenAI API key in the code or as an environment variable:
+6. Set your OpenAI API key in the code or as an environment variable:
+   
    export OPENAI_API_KEY='your_openai_api_key'  # Linux/macOS
+   
    set OPENAI_API_KEY='your_openai_api_key'     # Windows
+   
    $env:OPENAI_API_KEY = "your_openai_api_key"  # Powershell
 
-7. Run the Flask application:
+8. Run the Flask application:
+
    python Analysis_app.py
 
 ## Testing
