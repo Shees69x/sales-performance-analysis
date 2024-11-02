@@ -30,7 +30,7 @@ Develop a backend system that uses a Large Language Model (LLM) to analyze sales
    set OPENAI_API_KEY='your_openai_api_key'     # Windows
    $env:OPENAI_API_KEY = "your_openai_api_key"  # Powershell
 
-6. Run the Flask application
+7. Run the Flask application:
    python Analysis_app.py
 
 ## Testing
