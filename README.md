@@ -14,11 +14,11 @@ Develop a backend system that uses a Large Language Model (LLM) to analyze sales
 
 2. Set up a virtual environment:
    
-   Activate the virtual environment: python -m venv virenv
+   **Activate the virtual environment:** python -m venv virenv
 
-   Windows: virenv\Scripts\activate
+   **Windows:** virenv\Scripts\activate
    
-   macOS/Linux: source virenv/bin/activate
+   **macOS/Linux:** source virenv/bin/activate
 
 4. Install the required packages:
    
@@ -38,37 +38,30 @@ Develop a backend system that uses a Large Language Model (LLM) to analyze sales
 
 ## Testing
 Testing Each API Endpoint
+
 1. Individual Sales Representative Performance Analysis
+
 Method: GET
+
 Endpoint: http://127.0.0.1:5000/api/rep_performance
+
 Parameters:
+
 Key = rep_id (e.g Value = 183)
-Steps:
 
-In Postman, create a new request.
-Set the method to GET.
-Enter the URL: http://127.0.0.1:5000/api/rep_performance?rep_id=183
-Click on the Send button.
-Observe the response in the lower section of Postman.
 2. Overall Sales Team Performance Summary
+
 Method: GET
+
 Endpoint: http://127.0.0.1:5000/api/team_performance
-Steps:
 
-Create another request in Postman.
-Set the method to GET.
-Enter the URL: http://127.0.0.1:5000/api/team_performance
-Click on the Send button.
-Check the response for the team's performance summary.
 3. Sales Performance Trends and Forecasting
-Method: GET
-Endpoint: http://127.0.0.1:5000/api/performance_trends
-Parameters:
-Key = time_period (e.g. Value = monthly)
-Steps:
 
-Create another request in Postman.
-Set the method to GET.
-Enter the URL: http://127.0.0.1:5000/api/performance_trends?time_period=monthly
-Click on the Send button.
-Review the response for trends and forecasting analysis.
+Method: GET
+
+Endpoint: http://127.0.0.1:5000/api/performance_trends
+
+Parameters:
+
+Key = time_period (e.g. Value = monthly)
+
