@@ -14,14 +14,11 @@ Develop a backend system that uses a Large Language Model (LLM) to analyze sales
 
 2. Set up a virtual environment:
    
-   Activate the virtual environment
-   python -m venv virenv
+   Activate the virtual environment: python -m venv virenv
 
-   Windows
-   virenv\Scripts\activate
+   Windows: virenv\Scripts\activate
    
-   macOS/Linux
-   source virenv/bin/activate
+   macOS/Linux: source virenv/bin/activate
 
 4. Install the required packages:
    
